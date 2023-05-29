@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <include layout="@layout/actionbar_app"
+        android:id="@+id/actionbarLogin"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_below="@+id/actionbarLogin"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/txtInfo1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hesabinizla_g_r_yapiniz"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="4dp"
+            android:textSize="20sp"/>
+
+
+        <EditText
+            android:id="@+id/txtEmailLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/txtPasswordLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:layout_marginTop="25dp"
+            android:hint="@string/sifre"
+            android:minHeight="48dp" />
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/g_r_yap"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorPrimary"
+            android:textColor="@android:color/white"/>
+
+        <Button
+            android:id="@+id/btnRegisterLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/yen_hesap_olu_tur"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorAccent"
+            android:textColor="@android:color/white"/>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

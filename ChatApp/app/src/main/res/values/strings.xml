@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">ChatApp</string>
+    <string name="yeni_hesap_olu_tur">Yeni Hesap Oluştur</string>
+    <string name="hesabim_var">HESABIM VAR</string>
+    <string name="create_new_account">YENİ HESAP OLUŞTUR</string>
+    <string name="log_n_ekrani">LOGİN EKRANI</string>
+    <string name="kullan_c_ad">Kullanıcı Adı</string>
+    <string name="user_name">Kullanıcı Adı</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="hesap_olu_tur">HESAP OLUŞTUR</string>
+    <string name="hesabinizla_g_r_yapiniz">HESABINIZLA GİRİŞ YAPINIZ</string>
+    <string name="sifre">Password</string>
+    <string name="g_r_yap">GİRİŞ YAP</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="stekler_ekrani">İSTEKLER EKRANI</string>
+    <string name="mesajlar_ekrani">MESAJLAR EKRANI</string>
+    <string name="arkada_lar_ekrani">ARKADAŞLAR EKRANI</string>
+    <string name="iki_yap">ÇIKIŞ YAP</string>
+    <string name="hesabinizla_g_r_yapin">HESABINIZLA GİRİŞ YAPINIZ</string>
+    <string name="yen_hesap_olu_tur">YENİ HESAP OLUŞTUR</string>
+    <string name="bir_mesaj_yaz_n_z">Bir Mesaj Yazınız</string>
+    <string name="test">Test</string>
+    <string name="b_r_mesaj_yaziniz">BİR MESAJ YAZINIZ</string>
+</resources>

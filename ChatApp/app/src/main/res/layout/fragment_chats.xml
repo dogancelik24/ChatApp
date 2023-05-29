@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChatsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+   <androidx.appcompat.widget.Toolbar
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:background="@color/colorPrimary"
+       android:padding="8dp"
+       android:id="@+id/chat_activity_toolbar">
+
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+
+
+
+          <ImageView
+              android:id="@+id/chat_activity_imgkapat"
+              android:layout_width="40dp"
+              android:layout_height="40dp"
+             android:layout_centerVertical="true"
+              android:layout_alignParentRight="true"
+              android:layout_alignParentEnd="true"
+              android:layout_marginRight="15dp"
+              android:src="@drawable/baseline_close_24" />
+
+      </RelativeLayout>
+
+   </androidx.appcompat.widget.Toolbar>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        android:layout_below="@+id/chat_activity_toolbar"
+        android:layout_above="@+id/chat_activity_relaBottom"
+        android:id="@+id/chat_activity_recyclerview"/>
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="50dp"
+          android:padding="8dp"
+          android:id="@+id/chat_activity_relaBottom"
+          android:background="@android:color/white"
+          android:layout_alignParentBottom="true"
+          >
+
+          <EditText
+              android:id="@+id/chat_activity_editmesaj"
+              android:layout_width="match_parent"
+              android:layout_height="48dp"
+              android:layout_alignParentStart="true"
+              android:layout_alignParentLeft="true"
+              android:layout_toLeftOf="@+id/chat_activity_imgsend"
+              android:background="@android:color/white"
+              android:hint="@string/b_r_mesaj_yaziniz"
+              android:textColor="@android:color/black"
+              tools:ignore="TouchTargetSizeCheck" />
+
+          <ImageButton
+              android:onClick="btnMesajGonder"
+              android:layout_width="45dp"
+              android:layout_height="45dp"
+              android:src="@drawable/baseline_send_24"
+              android:layout_alignParentRight="true"
+              android:layout_alignParentEnd="true"
+              android:layout_centerVertical="true"
+              android:id="@+id/chat_activity_imgsend"/>
+
+      </RelativeLayout>
+</RelativeLayout>
